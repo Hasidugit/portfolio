@@ -1,0 +1,80 @@
+/* ---------- Navbar ---------- */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px 5%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ff4d4d;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+  position: relative;
+}
+
+.navbar-links a:hover {
+  color: #ff4d4d;
+  transform: translateY(-2px);
+}
+
+.navbar-links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff4d4d;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+/* Scrolled effect */
+.navbar-scrolled {
+  background-color: rgba(18, 18, 18, 0.95);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-links {
+    gap: 20px;
+  }
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+}
