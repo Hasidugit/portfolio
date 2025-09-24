@@ -20,7 +20,7 @@ function About() {
         {/* Bio + Skills */}
         <div className="about-content fade-in-right">
           <p>
-            Hello! I’m <strong>Hasidu Sandeepa</strong>, a passionate Flutter and mobile app developer. I build clean,
+            Hello! I’m <strong>xasidu Sandeepa</strong>, a passionate Flutter and mobile app developer. I build clean,
             responsive, and high-performance mobile applications for Android and iOS.
           </p>
           <p>
