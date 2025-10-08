@@ -1,4 +1,5 @@
-import profileImage from "../assets/p1.png";
+import profileImage from "/assets/p1.png";
+
 
 const skills = ["Flutter", "Dart", "React.js", "Node.js", "C#", "SQL", "MongoDB", "Git", "REST APIs"];
 

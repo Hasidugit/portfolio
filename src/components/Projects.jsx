@@ -1,13 +1,13 @@
 import { useState } from "react";
-import attendenceImage from "../assets/attendence.jpg";
-import dicImage from "../assets/dic.jpg";
-import highwayImage from "../assets/highway.jpg";
-import libmsImage from "../assets/libms.jpg";
-import lmsImage from "../assets/lms.jpg";
-import rentImage from "../assets/rent.jpeg";
-import sosgameImage from "../assets/sosgame.jpg";
-import todoImage from "../assets/todo.jpg";
-import weatherappImage from "../assets/weatherapp.jpg";
+import attendenceImage from "/assets/attendence.jpg";
+import dicImage from "/assets/dic.jpg";
+import highwayImage from "/assets/highway.jpg";
+import libmsImage from "/assets/libms.jpg";
+import lmsImage from "/assets/lms.jpg";
+import rentImage from "/assets/rent.jpeg";
+import sosgameImage from "/assets/sosgame.jpg";
+import todoImage from "/assets/todo.jpg";
+import weatherappImage from "/assets/weatherapp.jpg";
 
 const projects = [
   {

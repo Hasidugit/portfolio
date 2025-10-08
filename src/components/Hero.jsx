@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <img src="src/assets/hero.jpg" alt="Hasidu Sandeepa" className="hero-image fade-in" />
+        <img src="/assets/hero.jpg" alt="Hasidu Sandeepa" className="hero-image fade-in" />
       </div>
       <div className="hero-right fade-in delay-1">
         <h1>Hasidu Sandeepa</h1>
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-buttons fade-in delay-3">
-          <a href="src/assets/cv.pdf" download className="btn download-btn">Download CV</a>
+          <a href="/assets/cv.pdf" download className="btn download-btn">Download CV</a>
           <a href="#contact" className="btn contact-btn">Contact Me</a>
         </div>
       </div>
@@ -71,11 +71,11 @@ const Hero = () => {
         @media (min-width: 1200px) { .hero-right h1 { font-size: 3.8rem; } }
 
         .hero-right h2 {
-          font-size: 1.2rem;
+          font-size: 1.0rem;
           color: #e53e3e;
           margin-bottom: 1rem;
         }
-        @media (min-width: 768px) { .hero-right h2 { font-size: 2rem; } }
+        @media (min-width: 768px) { .hero-right h2 { font-size: 1.5rem; } }
         @media (min-width: 1200px) { .hero-right h2 { font-size: 3rem; } }
 
         .hero-right p {
